@@ -19,13 +19,13 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-BASE_URL = 'http://94.23.120.156'
-LOGIN_URL = f'{BASE_URL}/ints/login'
-SIGNIN_URL = f'{BASE_URL}/ints/signin'
-DATA_URL = f'{BASE_URL}/ints/agent/res/data_smscdr.php'
-USERNAME = 'marufa21'
-PASSWORD = 'marufa22'
-BOT_TOKEN = '8569166446:AAHJdM-6TEKflyuYZ9d3WGJLTFVQZ_HEpNs'
+BASE_URL = 'http://139.99.208.63'
+LOGIN_URL = f'http://139.99.208.63/ints/login'
+SIGNIN_URL = f'http://139.99.208.63/ints/signin'
+DATA_URL = f'http://139.99.208.63/ints/agent/SMSCDRReports'
+USERNAME = 'nayem11'
+PASSWORD = 'nayem11'
+BOT_TOKEN = '8747747312:AAGIb_CaBvNk_fQ27RoHdTA6kjc2EnSWB2I'
 CHAT_ID = '-1003598958963'
 
 def solve_captcha(html):
